@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bangs Glow Salon</title>
+<link rel="shortcut icon" href="img/156.jpg">
+<link rel="stylesheet" type="text/css" href="CSS/general.css">
+<enlace rel="preconectar" href="https://fonts.googleapis.com">
+    <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+    <enlace href="https: //fonts.googleapis.com/css2? family= ABeeZee:ital@0;1 & family= Open+Sans & display=swap" rel="stylesheet">
+        <style type="text/css">
+            *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans'
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}   
+.titulo{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/* Header */
+
+header{
+    width: 100%;
+    height: 750px;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(59, 33%, 34%, 0.63), hsla(0, 0%, 100%, 0.596)),url(https://scontent.fmex27-1.fna.fbcdn.net/v/t39.30808-6/273800714_336384915165158_8758559660192374611_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0cUBrNmcBgAAX88ZTJH&_nc_ht=scontent.fmex27-1.fna&oh=00_AfBgoBtaMA8O9cN6trzIkbAo7Uth6TOLnxoaw1kHTuYhOA&oe=66121F56);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(59, 33%, 34%, 0.63), hsla(0, 0%, 100%, 0.596)),url(https://scontent.fmex27-1.fna.fbcdn.net/v/t39.30808-6/273800714_336384915165158_8758559660192374611_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0cUBrNmcBgAAX88ZTJH&_nc_ht=scontent.fmex27-1.fna&oh=00_AfBgoBtaMA8O9cN6trzIkbAo7Uth6TOLnxoaw1kHTuYhOA&oe=66121F56); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.wave{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+.textos-header h1{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+}
+.textos-header h2{
+font-size: 30px;
+font-weight: 300;
+color: rgb(0, 0, 0);
+text-align: center;
+}
+/* About us */
+
+.contenedor-sobre-nosotros{
+    display:flex;
+    justify-content: space-evenly;
+}
+.imagen-about-us{
+    width: 25%;
+    height: 25%;
+}
+.contenedor-sobre-nosotros .contenido-textos{
+    width: 50%;
+}
+.contenido-textos h3{
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+.contenido-textos h3 span {
+background: hsl(51, 98%, 67%);
+color: rgb(255, 255, 255);
+border-radius: 50%;
+display: inline-block;
+text-align: center;
+width: 30px;
+height: 30px;
+padding: 2px;
+box-shadow: 0 0 6px 0 rgb(0, 0, 0);
+margin-right: 3px;
+}
+.contenido-textos p{
+    color: rgb(255, 255, 255);
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+} 
+/*galeria*/
+.portafolio{
+    width: 100%;
+    height: 750px;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(59, 33%, 34%, 0.63), hsla(0, 0%, 100%, 0.596)),url(https://scontent.fmex27-1.fna.fbcdn.net/v/t39.30808-6/273800714_336384915165158_8758559660192374611_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0cUBrNmcBgAAX88ZTJH&_nc_ht=scontent.fmex27-1.fna&oh=00_AfBgoBtaMA8O9cN6trzIkbAo7Uth6TOLnxoaw1kHTuYhOA&oe=66121F56);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(59, 33%, 34%, 0.63), hsla(0, 0%, 100%, 0.596)),url(https://scontent.fmex27-1.fna.fbcdn.net/v/t39.30808-6/273800714_336384915165158_8758559660192374611_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0cUBrNmcBgAAX88ZTJH&_nc_ht=scontent.fmex27-1.fna&oh=00_AfBgoBtaMA8O9cN6trzIkbAo7Uth6TOLnxoaw1kHTuYhOA&oe=66121F56); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.portafolio H2{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imagen-sport{
+    width: 24%;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgb(255, 255, 255);
+}
+.imagen-sport> img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    /* transform:scale: (1);*/
+    background: rgba(0, 0, 0, 0.719) ;
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hover-galeria >img{
+    width: 55px;
+
+}
+.hover-galeria >p{
+    color: rgb(255, 255, 255);
+}
+.imagen-sport:hover .hover-galeria{
+    transform: scale(0);
+}
+/* clients */
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.clientes-contenedor .Gutierritos{
+    color: #000000;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+}
+.clientes-contenedor .Gutierritos h2{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.cards .cards{
+    background: #a79b2f;
+    display: flex;
+    width: 47%;
+    height: 250px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 #c4a830e7;
+}
+.cards .cards img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+.cards .cards > .contenido-textos-card{
+    width: 200px;
+    color: #fff;
+}
+.cards .cards> .contenido-textos-card p{
+    font-weight: 500;
+    padding-top: 5px;
+}
+/* Our team */
+.about-servies{
+    background: #575757;
+    padding-bottom: 30px;
+}
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.servicio-ind{
+    width: 28%;
+    text-align: center;
+}
+.servicio-ind img{
+    width: 90%;
+}
+.servicio-ind h3{
+    color: white;
+    margin: 10px 0;
+}
+.servicio-ind p{
+    color: white;
+    font-weight: 300;
+    text-align: justify;
+}
+/* footer */
+footer{
+    background: #000000;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid hsla(244, 98%, 32%, 0.651);
+    padding-bottom: 5px;
+    margin-bottom: 10px; 
+}
+.content-foo p{
+    color: rgb(255, 255, 255);
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 30px 0 0 0;
+    color: #ffffff;
+}
+        </style>    
+</head>            
+<body bgcolor="black">
+    <header>
+        <nav>
+            <a href="Index.HTML"> Inicio </a>
+            <a href="Videos.html"> Videos Bangs Glow Salon </video> </a>
+            <a href="Redessocuales.html"> Redes Sociales </a>
+            <a href="horarios.html"> Horarios</a>
+            <a href="GALERIA.HTML"> Galeria </a>
+        </nav>
+        <section class="textos-header">
+            <h1>Bangs Glow Salon</h1>
+            <h2>La mejor esperienciapara tu belleza </h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(0, 0, 0);"></path></svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Quienes somos</h2>
+           <div class="contenedor-sobre-nosotros">
+               <img src="img/155.jpg" alt="" class="imagen-about-us">
+               <div class="contenido-textos">
+                   <h3><span>1</span>Visión</h3>
+                   <p>Ser siempre tu primera opción, manteniendo un equipo de trabajo actualizado y capacitado, para brindarte una experiencia única y personalizada, satisfaciendo siempre tus necesidades y superando tus expectativas. Valores Liderazgo, responsabilidad, empatía, pasión, colaboración, diversidad, calidad, integridad, respeto, honestidad. </p>
+                   <h3><span>2</span>Misión</h3>
+                   <p>Somos una empresa comprometida a ofrecerte servicios de calidad, que hagan resaltar tu belleza, pretendemos brindarte la seguridad de lucir hermosa y llena de poder, confianza y amor propio. Consentirte es nuestra razón de ser, por ello nuestro trabajo lo realizamos con amor y pasión a cada paso.</p>
+                </div>
+           </div>    
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="NBA"> Nuestros Trabajos</h2>
+                <div class="galeria-port">
+                    <div class="imagen-sport">
+                        <img src="img/cliente1.jpg" alt="">
+                         <div class="hover-galeria">
+                             <img src="img/156.jpg" alt="" >
+                             <p>nuestro trabajo </p>
+                         </div>
+                    </div>
+                    <div class="imagen-sport">
+                        <img src="img/cliente2.jpg" alt="">
+                         <div class="hover-galeria">
+                             <img src="img/156.jpg" alt="" >
+                             <p>nuestro trabajo </p>
+                         </div>
+                    </div>
+                    <div class="imagen-sport">
+                        <img src="img/427560710_857052979765013_2529884660478704036_n.jpg" alt="">
+                         <div class="hover-galeria">
+                             <img src="img/156.jpg" alt="" >
+                             <p>nuestro trabajo </p>
+                         </div>
+                    </div>
+                    <div class="imagen-sport">
+                        <img src="img/428068559_857052949765016_5963977972792300626_n.jpg" alt="">
+                         <div class="hover-galeria">
+                             <img src="img/156.jpg" alt="" >
+                             <p>nuestro trabajo </p>
+                         </div>
+                    </div>
+                    <div class="imagen-sport">
+                        <img src="img/414991330_917800749704743_4106365218800772428_n.jpg" alt="">
+                         <div class="hover-galeria">
+                             <img src="img/156.jpg" alt="" >
+                             <p>nuestro trabajo </p>
+                         </div>
+                    </div>
+                    <div class="imagen-sport">
+                        <img src="img/414984216_917800723038079_4993522798708465991_n.jpg" alt="">
+                         <div class="hover-galeria">
+                             <img src="img/156.jpg" alt="" >
+                             <p>nuestro trabajo </p>
+                         </div>
+                    </div>
+                    <div class="imagen-sport">
+                        <img src="img/425918975_851588680311443_7705827842539673555_n.jpg" alt="">
+                         <div class="hover-galeria">
+                             <img src="img/156.jpg" alt="" >
+                             <p>nuestro trabajo </p>
+                         </div>
+                    </div>
+                    <div class="imagen-sport">
+                        <img src="img/img7.jpg" alt="">
+                         <div class="hover-galeria">
+                             <img src="img/156.jpg" alt="" >
+                             <p>nuestro trabajo </p>
+                         </div>
+                    </div>
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo"> nuestros Servicios </h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/balayage.jpg" alt="">
+                        <h3>Balayage</h3>
+                        <p>crea un cabello ligeramente aclarado que luzco con un aspecto natural como aclarado por el sol, con tonos más claros en las puntas.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/images.jpeg" alt="">
+                        <h3>Microblading</h3>
+                        <p> El microblading es una técnica de maquillaje semipermanente, cuyo objetivo es corregir o reconstruir completamente una ceja carente de pelo o ausente, realizando pelos de forma artística, creando un efecto hiperrealista y natural.​</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/BB LIPS.jpg" alt="">
+                        <h3>BB Lips</h3>
+                        <p>La micropigmentación de labios o el efecto BB Lips es una técnica de tatuado semipermanente que aplico para dar a mis labios un aspecto sensual y natural. Consiste en añadir un ligero color para resaltarlos sin que parezcan perfilados o pintados de manera artificial. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="clientes-contenedor">
+                <div class="Gutierritos"><h2 class="titulo"> ¿Qué dicen nuestros clientes? </h2></div>
+                <div class="cards">
+                    <div class="cards">
+                         <img src="img/sra.jpg" alt="">
+                         <div class="contenido-textos-card">
+                             <h4> Sara Arana </h4>
+                             <p> El salòn es 100% reomendable, yo me sentì muy còmoda y satisfecha con el servicio.</p>
+                     </div>
+                    </div> 
+                    <div class="cards">
+                        <img src="img/amor.jpg" alt="">
+                        <div class="contenido-textos-card">
+                            <h4> Regina </h4>
+                            <p> super talentoso muy recomdados, tan profecionales en su trabajo que los recomiendo</p>
+                   </div>
+                 </div>
+             </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+            <h4> Tik tok</h4>
+            <a href="https://www.tiktok.com/@bangsglowsalon?_t=8l7s4DQxnwE&_r=1"><p>
+                Bangs Glow Salon
+            </p></a>
+            </div>
+            <div class="content-foo">
+            <h4>whatsapp</h4>
+            <a href="55 4007 6203"><p>
+                Bangs Glow Salon
+            </p></a>
+            </div>
+            <div class="content-foo">
+            <h4> FACEBOOK </h4>
+            <a href="https://www.facebook.com/p/Bangs-Glow-Salon-100063809551542/"><p> Bangs Glow Salon </p></a>
+            </div>
+            <div class="content-foo">
+            <h4> INSTAGRAM</h4>
+            <a href="https://www.instagram.com/bangsglowsalon?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+            <p> Bangs Glow Salon</p></a>
+            </div>
+           </div>
+        <h2 class="titulo-final">&copy; Bangs Glow Salon│ S.A de C. V.®</h2>
+    </footer>
+</body>
+</html>
